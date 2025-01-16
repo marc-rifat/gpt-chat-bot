@@ -56,4 +56,3 @@ ChatGPT: I'm just a program, but I'm here to assist you! How can I help you toda
 You: quit
 Goodbye!
 ```
-# gpt-chat-bot
