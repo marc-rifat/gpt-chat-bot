@@ -45,7 +45,7 @@ Before using this project, ensure you have the following installed on your syste
 ## Example
 
 ```bash
-$ python chatgpt_cli.py
+$ python chat_app.py
 Welcome to ChatGPT CLI!
 Type 'quit' to exit
 
