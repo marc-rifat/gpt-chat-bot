@@ -1,58 +1,59 @@
-# ChatGPT CLI
+# AI Chat Assistant
 
-This is a Command Line Interface application that interacts with OpenAI's GPT model for conversational AI. The application allows users to send prompts and receive responses directly from the terminal.
+A modern web-based chat interface for interacting with OpenAI's GPT model. This application provides a clean, professional interface for having conversations with AI.
+
+![AI Chat Assistant Screenshot](screenshot.png)
 
 ## Features
-- Simple and user-friendly CLI for chatting with GPT.
+
+- 🌐 Web-based interface
+- 💬 Real-time chat interactions
 
 ## Prerequisites
 
-Before using this project, ensure you have the following installed on your system:
+Before running this project, make sure you have:
 
 - Python 3.7+
-- pip
 - An OpenAI API key
 
 ## Installation
 
-1. Clone the repository:
-   ```bash
-   git clone <repository-url>
-   cd <repository-folder>
-   ```
+1. Install the required dependencies:
+```bash
+pip install -r requirements.txt
+```
 
-2. Install the required dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. In`.env` file in the project directory, add your OpenAI API key:
-   ```env
-   OPENAI_API_KEY=your_openai_api_key
-   ```
+2. Add your OpenAI API key in .env file:
+```env
+OPENAI_API_KEY=your_openai_api_key_here
+```
 
 ## Usage
 
-1. Run the application:
-   ```bash
-   python chat_app.py
-   ```
-
-2. Interact with the ChatGPT CLI:
-   - Type a prompt and press Enter to receive a response from the GPT model.
-   - Type `quit` to exit the application.
-
-## Example
-
+1. Start the Flask server:
 ```bash
-$ python chat_app.py
-Welcome to ChatGPT CLI!
-Type 'quit' to exit
-
-You: Hello, how are you?
-
-ChatGPT: I'm just a program, but I'm here to assist you! How can I help you today?
-
-You: quit
-Goodbye!
+python chat_app.py
 ```
+
+2. Open your web browser and navigate to:
+```
+http://localhost:5000
+```
+
+3. Start chatting with the AI assistant!
+
+## Technologies Used
+
+- Backend:
+  - Flask (Python web framework)
+  - OpenAI API (GPT model)
+  - python-dotenv (Environment management)
+
+- Frontend:
+  - HTML5
+  - CSS3
+  - JavaScript
+  - Marked.js (Markdown parsing)
+  - Highlight.js (Code syntax highlighting)
+  - Font Awesome (Icons)
+  - Inter font family
